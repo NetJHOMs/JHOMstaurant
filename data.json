@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Lasagna",
+		"category": "food",
+		"price": "150",
+		"link": "https://lh3.googleusercontent.com/proxy/RwAivPzDI1Cz64lP94GKswi9ZYrajUbirZ-BOJlA3xq736cobTbWUbns-r4ZySQ_xyFuBjMXKZaMLE3B_Y66W-hDFiwS4kdHgBT3pJ1grkXkdJ6rr3J6fZ-T077RTBVfuMvLxf-jNSEOTtku"
+	},
+	{
+		"name": "Mariscos",
+		"category": "food",
+		"price": "300",
+		"link": "https://www.eltimondecancun.com/uploads/fotos/1614711806.png"
+	},
+	{
+		"name": "Pollo frito",
+		"category": "food",
+		"price": "250",
+		"link": "https://kimchimix.com/wp-content/uploads/2020/06/yellow-transparent.png"
+	},
+	{
+		"name": "Pizza",
+		"category": "food",
+		"price": "180",
+		"link": "https://lh3.googleusercontent.com/proxy/10IwB1GLgKyiQ7zg7ZR21avf1UzKPqPZAiSf1meWN4QJtHy0XIcr5Px4_5q1DSzLGHebyt1qbT63vadE41zOyEjRU-QQJT0pJw"
+	},
+	{
+		"name": "Camarones",
+		"category": "food",
+		"price": "530",
+		"link": "https://www.elhuertodeleden.com/img/4.png"
+	},
+	{
+		"name": "Frappe",
+		"category": "drink",
+		"price": "50",
+		"link": "https://lecoffee.com.mx/wp-content/uploads/revslider/home23/106-1060576_coffee-frappe-png.png"
+	},
+	{
+		"name": "Café",
+		"category": "drink",
+		"price": "40",
+		"link": "https://www.caferealorganic.net/resources/580b57fbd9996e24bc43c0e8.png.opt1130x1023o0%2C0s1130x1023.png"
+	},
+	{
+		"name": "Té helado",
+		"category": "drink",
+		"price": "60",
+		"link": "https://cdn.pixabay.com/photo/2019/04/30/10/37/ice-tea-4168248_1280.png"
+	},
+	{
+		"name": "Michelada",
+		"category": "drink",
+		"price": "80",
+		"link": "https://icecocktail.com/wp-content/uploads/2020/08/micheladas.png"
+	},
+	{
+		"name": "Agua de frutas",
+		"category": "drink",
+		"price": "40",
+		"link": "http://www.concentradosdesabores.com/wp-content/uploads/2013/04/jarra_mango1.png"
+	},
+	{
+		"name": "Pastel",
+		"category": "dessert",
+		"price": "220",
+		"link": "https://file.adomicil.io/esperanza.tr3sco.net/_files/images/product/e-commers3-0129622215465467.png"
+	},
+	{
+		"name": "Helado",
+		"category": "dessert",
+		"price": "50",
+		"link": "https://d25dk4h1q4vl9b.cloudfront.net/media/images/submenu/menu/MX/postres.png"
+	},
+	{
+		"name": "Gelatina",
+		"category": "dessert",
+		"price": "60",
+		"link": "https://static.wixstatic.com/media/ee6e5b_7012ca749dbd4be1a8c87c437faae7bd~mv2.png/v1/fill/w_1559,h_1559,al_c/ee6e5b_7012ca749dbd4be1a8c87c437faae7bd~mv2.png"
+	},
+	{
+		"name": "Flan",
+		"category": "dessert",
+		"price": "35",
+		"link": "https://www.flancasero.com/wp-content/uploads/2019/11/pngocean.com-9-1024x768.png"
+	},
+	{
+		"name": "Crepa",
+		"category": "dessert",
+		"price": "75",
+		"link": "https://www.vips.com.mx/img/2019/platillosdic/postres-crepas-fresas-chocolate.png"
+	}
+]

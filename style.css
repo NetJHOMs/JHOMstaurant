@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;600&display=swap');
+
+@font-face {
+	font-family: 'Caudex';
+	src: url('./Caudex.ttf.woff');
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	--color-red: #d41b27;
+	--color-gray: #bebcbd;
+	--color-white: #ebe6e6;
+	--color-dark: #000000;
+}
+
+body {
+	background-color: var(--color-white);
+	font-family: Caudex, serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+header label {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+header li {
+	padding: 0 1rem;
+}
+
+header li:hover {
+	font-weight: bold;
+}
+
+header a {
+	color: var(--color-dark);
+	text-decoration: none;
+}
+
+button {
+	background-color: var(--color-red);
+	color: #fff;
+	font-family: Caudex, serif;
+	font-weight: bold;
+	padding: 8px 12px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+main {
+	max-width: 960px;
+	margin: 3rem auto 0 auto;
+}
+
+main section {
+	display: grid;
+	margin-bottom: 1rem;
+	grid-template-columns: repeat(5, 1fr);
+}
+main section article {
+	background: linear-gradient(
+		var(--color-white),
+		var(--color-white),
+		var(--color-gray)
+	);
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+main section article img {
+	max-width: 100%;
+	max-height: 5rem;
+	filter: drop-shadow(0 2px 5px black);
+}
+
+@media (max-width: 1100px) {
+	main section {
+		grid-template-columns: 25% 25% 25% 25%;
+	}
+}
+
+@media (max-width: 770px) {
+	main section {
+		grid-template-columns: 33% 33% 33%;
+	}
+
+	header {
+		margin-top: 3rem;
+	}
+
+	header label {
+		font-size: 1.8rem;
+		padding: 1.5rem 2rem;
+		box-shadow: 0px 10px 10px var(--color-gray);
+	}
+
+	header nav {
+		display: none;
+	}
+
+	header button {
+		display: none;
+	}
+}
+
+@media (max-width: 420px) {
+	main section {
+		grid-template-columns: 50% 50%;
+	}
+}
